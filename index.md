@@ -1,8 +1,3 @@
----
-title: "Stats 220 Assignment 1"
-author: "Youngseok Chae"
-output: html_document
----
 
 ```{r setup, include = TRUE}
 knitr::opts_chunk$set(echo = TRUE)
