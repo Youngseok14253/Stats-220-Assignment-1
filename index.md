@@ -51,5 +51,5 @@ meme_format = c(top_row, bot_row)
 meme = image_append(meme_format, stack = TRUE) %>%
   image_scale(500)
 
-image_write(meme, "my_meme.png")
+meme
 ```
