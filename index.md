@@ -1,9 +1,4 @@
 
-```{r setup, include = TRUE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
-
 ## “STATS 220 Semester One 2022”
 
 # Github Repository Information
@@ -56,5 +51,5 @@ meme_format = c(top_row, bot_row)
 meme = image_append(meme_format, stack = TRUE) %>%
   image_scale(500)
 
-meme
+image_write(meme, "my_meme.png")
 ```
